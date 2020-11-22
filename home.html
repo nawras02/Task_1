@@ -5,6 +5,12 @@
         <title>Task 1</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- <script type="text/javascript" src="script.js"></script> -->
     </head>
 <body>
     <div class="navbar navbar_grid"  id="topnav">
@@ -21,7 +27,7 @@
             <a href="#feeds" class="navbar_links"> RSS Feeds</a>
             <a href="#news" class="navbar_links"> Archived News</a>
             <a href="about.html" class="navbar_links"> About</a>
-            <a href="contact.html" class="navbar_links"> Contact</a>
+            <a href="contact.php" class="navbar_links"> Contact</a>
         </div>
     </div>
     <div class="header">
@@ -235,8 +241,8 @@ Starday: 8:00 - 13:00
     <p>Copyright @2003 -All Rights Reserved - Domain Name </p>
     <p id="last-p">Template by OS Templates</p>
 </div>
-  <script>
-      var slideIndex = 0;
+<script>
+    var slideIndex = 0;
       showSlides();
       
       function showSlides() {
@@ -251,10 +257,11 @@ Starday: 8:00 - 13:00
         for (i = 0; i < dots.length; i++) {
           dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); 
+        slides[slideIndex-1].style.display = " block";  
+        if(slideIndex < 3){
+            dots[slideIndex-1].className += " active";
+        }
+        setTimeout(showSlides, 1000); 
       }
-    </script>
-
+</script>
 </body>

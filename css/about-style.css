@@ -48,7 +48,9 @@ body {
     font-size: 36px;
     text-align: center;
     padding-top: 6px;
-    margin-bottom: 0px
+    margin-bottom: 12px;
+    margin-top: -88px;
+}
 }
 
 #whoami {
@@ -64,7 +66,7 @@ body {
 }
 
 #whoami > p > a {
-    color: white;
+    color: #9F2D81;
 }
 
 .purple-background {
@@ -105,6 +107,9 @@ body {
     margin-right: 26px;
     margin-bottom: 26px;
     padding-left: 40px;
+    padding-right: 52px;
     padding-bottom: 4px;
     padding-top: 1px;
+    font-size: 2vw;
 }
+

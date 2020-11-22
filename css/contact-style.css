@@ -46,10 +46,15 @@ body {
     padding-bottom: 25px;
     margin-top: 6px;
     margin-bottom: 25px;
+    overflow: hidden;
 }
 
 .rounded-corners {
     border-radius: 10px;
+}
+
+.title {
+    text-align: center;
 }
 
 .title > h1 {

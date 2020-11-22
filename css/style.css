@@ -38,6 +38,14 @@ body {
     text-align: center;
     width: 5px;
     height: 5px;
+    position: relative;
+
+}
+
+.fa {
+  position: absolute;
+  top: 14px;
+  left: 13px;
 }
 
 .navbar a:hover{
@@ -101,7 +109,6 @@ background-color: #DB852F;
 
 .search_bar {
   padding-top: 47px;
-  width: 20px;
   padding-left: 260px;
 }
 
