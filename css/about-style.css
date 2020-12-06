@@ -1,0 +1,110 @@
+body {
+    background-color: #D4CDCD;
+    padding: 0;
+}
+
+.navbar {
+    top: 0;
+    left: 0;          
+    right: 0;
+    height: 38px;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    overflow: hidden;
+    background-color: #9F2D81;
+    text-align: center;
+}
+
+.navbar > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vw;    
+    display: inline-block;
+    padding-right: 6px;
+    padding-left: 6px;
+    line-height: 20px; 
+    border-right: 1px solid white;
+ 
+}
+
+.navbar a:hover{
+    background-color: #DB852F;
+}
+
+.body-container {
+    margin-top: 95px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    padding-bottom: 1px;
+}
+
+.rounded-corners {
+    border-radius: 5px;
+}
+
+.title > h1 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 0px
+}
+
+#whoami {
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    padding-bottom: 4px;
+}
+
+#whoami > p {
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+#whoami > p > a {
+    color: white;
+}
+
+.purple-background {
+    background-color: #9F2D81;
+    color: white;
+}
+
+.white-background {
+    color: #9F2D81;
+    background-color: white;
+}
+
+.gray-background {
+    background-color: #D4CDCD;
+    color: black;
+}
+
+#hoppies {
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#loves {
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#cources {
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    padding-left: 40px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+}
