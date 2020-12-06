@@ -35,7 +35,7 @@ body {
 .body-container {
     margin-top: 95px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 22px;
     background-color: white;
     padding-bottom: 1px;
 }
@@ -60,9 +60,19 @@ body {
     padding-bottom: 4px;
 }
 
-#whoami > p {
+#about-p {
     padding-left: 20px;
     padding-top: 17px;
+    padding-right: 20px;
+    font-size:2vw;
+    margin-bottom: 2px;
+}
+
+#have-fun {
+    text-align: center; 
+    font-size:2vw; 
+    margin-bottom: 16px;
+    padding-bottom: 10px;
 }
 
 #whoami > p > a {
@@ -88,7 +98,7 @@ body {
     margin-left: 26px;
     margin-right: 26px;
     margin-bottom: 26px;
-    padding-left: 25px;
+    padding-left: 16px;
     padding-bottom: 1px;
     padding-top: 1px;
 }
@@ -97,19 +107,25 @@ body {
     margin-left: 26px;
     margin-right: 26px;
     margin-bottom: 26px;
-    padding-left: 25px;
+    padding-left: 16px;
     padding-bottom: 1px;
     padding-top: 1px;
 }
 
 #cources {
     margin-left: 26px;
-    margin-right: 26px;
     margin-bottom: 26px;
-    padding-left: 40px;
-    padding-right: 52px;
+    padding-left: 16px;
+    padding-right: 32px;
     padding-bottom: 4px;
     padding-top: 1px;
     font-size: 2vw;
+    margin-right: 99px;
+    display: contents;
+}
+
+
+ul {
+    padding-left: 12px;
 }
 
